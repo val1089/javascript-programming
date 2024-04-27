@@ -1,1 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const uniqueArr = (arr) => [...new Set(arr)];
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const appName = getAppName(channel);

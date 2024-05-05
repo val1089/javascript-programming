@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const appName = getAppName(channel);
+var arr3 = "jones".split('');
+const isWeekday = (date) => date.getDay() % 6 !== 0;

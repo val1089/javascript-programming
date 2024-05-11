@@ -1,2 +1,2 @@
-var arr3 = "jones".split('');
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log( "A" - "B" + 2);

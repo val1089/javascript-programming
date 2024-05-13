@@ -1,2 +1,3 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const arrayContains = (arr, element) => arr.includes(element);
 const uniqueArr = (arr) => [...new Set(arr)];
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);

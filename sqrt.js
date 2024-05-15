@@ -1,3 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const uniqueArr = (arr) => [...new Set(arr)];
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const channelName = getChannelName(channel);
+const maxNumber = arr => Math.max(...arr);
+const isEmptyArray = arr => !arr.length;

@@ -1,3 +1,3 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const uniqueArr = (arr) => [...new Set(arr)];
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const goToTop = () => window.scrollTo(0, 0);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);

@@ -1,3 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-var DELIM_SIZE = 4;
-var arr2 = arr1.reverse();
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log(typeof typeof 1);

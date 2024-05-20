@@ -1,3 +1,2 @@
-const channelName = getChannelName(channel);
-const maxNumber = arr => Math.max(...arr);
-const isEmptyArray = arr => !arr.length;
+const appName = getAppName(channel);
+const randomBoolean = () => Math.random() >= 0.5;

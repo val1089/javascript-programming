@@ -1,3 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const goToTop = () => window.scrollTo(0, 0);
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const result = await makeHttpRequest(url);
+console.log(typeof typeof 1);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);

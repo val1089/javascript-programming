@@ -1,3 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const appName = getAppName(channel);

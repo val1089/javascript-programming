@@ -1,2 +1,3 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log(1 +  -"1" + "2");
+const symbolsPath = path.join(buildOutputPath, 'symbols');

@@ -1,3 +1,3 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-console.log(1 +  -"1" + "2");
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log(false == '0');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const isTabInView = () => !document.hidden;

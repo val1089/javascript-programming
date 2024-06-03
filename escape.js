@@ -1,3 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const appName = getAppName(channel);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const scriptRootPath = path.join(repositoryRootPath, 'script');

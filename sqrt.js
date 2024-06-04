@@ -1,3 +1,3 @@
-const result = await makeHttpRequest(url);
-console.log(typeof typeof 1);
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;

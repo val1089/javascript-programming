@@ -1,3 +1,2 @@
-console.log(false == '0');
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const isTabInView = () => !document.hidden;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const merge = (a, b) => [...a, ...b];

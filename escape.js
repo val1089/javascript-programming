@@ -1,3 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+console.log(1 +  "2" + "2");
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const removeDuplicates = (arr) => [...new Set(arr)];

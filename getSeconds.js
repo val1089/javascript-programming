@@ -1,3 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-var c = new Counter(); c.add(); c.add(); c.add();
-console.log(1 +  -"1" + "2");
+var DELIM_SIZE = 4;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const lastElement = arr => arr[arr.length - 1];

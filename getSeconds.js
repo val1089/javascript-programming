@@ -1,2 +1,1 @@
-const reversedString = str => str.split('').reverse().join('');
-const channelName = getChannelName(channel);
+console.log(1 +  -"1" + "2");

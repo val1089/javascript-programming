@@ -1,3 +1,1 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-console.log(typeof typeof 1);
+var c = new Counter(); c.add(); c.add(); c.add();

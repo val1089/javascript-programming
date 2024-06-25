@@ -1,1 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
+const stringReverse = str => str.split("").reverse().join("");
+var arr2 = arr1.reverse();

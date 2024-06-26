@@ -1,3 +1,2 @@
-var DELIM_SIZE = 4;
-const removeDuplicates = (arr) => [...new Set(arr)];
-const channel = getChannel(computedAppVersion);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const timeFromDate = date => date.toTimeString().slice(0, 8);

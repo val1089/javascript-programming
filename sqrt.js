@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-var arr2 = arr1.reverse();
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();

@@ -1,3 +1,1 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-var pattern = {};
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);

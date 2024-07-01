@@ -1,2 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+console.log(false == '0');
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());

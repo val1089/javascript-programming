@@ -1,2 +1,2 @@
-console.log(false == '0');
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+[foo, bar] = [bar, foo];

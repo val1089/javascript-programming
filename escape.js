@@ -1,3 +1,2 @@
-console.log(1 +  "2" + "2");
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const removeDuplicates = (arr) => [...new Set(arr)];
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';

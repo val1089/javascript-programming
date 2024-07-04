@@ -1,3 +1,2 @@
-const channel = getChannel(computedAppVersion);
-console.log(typeof typeof 1);
-const appName = getAppName(channel);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const merge = (a, b) => [...a, ...b];

@@ -1,2 +1,1 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const merge = (a, b) => [...a, ...b];
+const timeFromDate = date => date.toTimeString().slice(0, 8);

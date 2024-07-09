@@ -1,2 +1,2 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-[foo, bar] = [bar, foo];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log( "A" - "B" + "2");

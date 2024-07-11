@@ -1,1 +1,2 @@
-console.log(false == '0');
+const minNumber = arr => Math.min(...arr);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);

@@ -1,3 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+function myAPITS(someString: string, someNum: number) { ... };

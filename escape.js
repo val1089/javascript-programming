@@ -1,3 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-function myAPITS(someString: string, someNum: number) { ... };
+const isEmptyArray = arr => !arr.length;
+const lastElement = arr => arr[arr.length - 1];
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');

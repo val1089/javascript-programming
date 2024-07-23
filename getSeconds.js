@@ -1,1 +1,1 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+var arr2 = arr1.reverse();

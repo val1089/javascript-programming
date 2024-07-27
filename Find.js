@@ -1,1 +1,2 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const flattenedArray = arr => [].concat(...arr);

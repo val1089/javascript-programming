@@ -1,3 +1,3 @@
-const maxNumber = arr => Math.max(...arr);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+[foo, bar] = [bar, foo];
+console.log( "A" - "B" + "2");

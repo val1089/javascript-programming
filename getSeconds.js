@@ -1,3 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-[foo, bar] = [bar, foo];
-console.log( "A" - "B" + "2");
+const fullName = name || 'buddy';
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
